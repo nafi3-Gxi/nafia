@@ -259,7 +259,7 @@ function toggleAllFaq(){
 }
 
 const posts = [
-  { url: 'https://www.instagram.com/p/DWgvFb4iumv/', img: '1.jpg', likes: '77' },
+  { url: 'https://www.instagram.com/p/DWgvFb4iumv/', img: './1.jpg', likes: '77' },
   { url: 'https://www.instagram.com/p/DWeAw-6gtyS/', img: '2.jpg', likes: '59' },
   { url: 'https://www.instagram.com/p/DWjLG_AFSyz/', img: '3.jpg', likes: '104' },
   { url: 'https://www.instagram.com/p/DWmKTTnjSOV/', img: '4.jpg', likes: '88' },
