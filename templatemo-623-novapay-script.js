@@ -259,22 +259,22 @@ function toggleAllFaq(){
 }
 
 const posts = [
-  { url: 'https://www.instagram.com/p/DWgvFb4iumv/', img: '/1.jpg', likes: '77' },
-  { url: 'https://www.instagram.com/p/DWeAw-6gtyS/', img: '/2.jpg', likes: '59' },
-  { url: 'https://www.instagram.com/p/DWjLG_AFSyz/', img: '/3.jpg', likes: '104' },
-  { url: 'https://www.instagram.com/p/DWmKTTnjSOV/', img: '/4.jpg', likes: '88' },
-  { url: 'https://www.instagram.com/p/DWoZNosFDRf/', img: '/5.jpg', likes: '71' },
-  { url: 'https://www.instagram.com/p/DWteYrij80u/', img: '/6.jpg', likes: '95' },
-  { url: 'https://www.instagram.com/p/DWzYe4CjYOv/', img: '/7.jpg', likes: '112' },
-  { url: 'https://www.instagram.com/p/DWv0EBEFNZO/', img: '/8.jpg', likes: '83' },
-  { url: 'https://www.instagram.com/p/DW2EHhyAa3L/', img: '/9.jpg', likes: '76' },
-  { url: 'https://www.instagram.com/p/DW4UdLljcEL/', img: '/10.jpg', likes: '69' },
-  { url: 'https://www.instagram.com/p/DW_WD31jTva/', img: '/11.jpg', likes: '98' },
-  { url: 'https://www.instagram.com/p/DXulFlVCZyU/', img: '/12.jpg', likes: '115' },
-  { url: 'https://www.instagram.com/p/DX4gUiPFcIL/', img: '/13.jpg', likes: '87' },
-  { url: 'https://www.instagram.com/p/DYU_OYQDpZr/', img: '/14.jpg', likes: '101' },
-  { url: 'https://www.instagram.com/p/DYZ8zbRjUuj/', img: '/15.jpg', likes: '93' },
-  { url: 'https://www.instagram.com/p/DYfGXidDYnX/', img: '/16.jpg', likes: '120' },
+  { url: 'https://www.instagram.com/p/DWgvFb4iumv/', img: '1.jpg', likes: '77' },
+  { url: 'https://www.instagram.com/p/DWeAw-6gtyS/', img: '2.jpg', likes: '59' },
+  { url: 'https://www.instagram.com/p/DWjLG_AFSyz/', img: '3.jpg', likes: '104' },
+  { url: 'https://www.instagram.com/p/DWmKTTnjSOV/', img: '4.jpg', likes: '88' },
+  { url: 'https://www.instagram.com/p/DWoZNosFDRf/', img: '5.jpg', likes: '71' },
+  { url: 'https://www.instagram.com/p/DWteYrij80u/', img: '6.jpg', likes: '95' },
+  { url: 'https://www.instagram.com/p/DWzYe4CjYOv/', img: '7.jpg', likes: '112' },
+  { url: 'https://www.instagram.com/p/DWv0EBEFNZO/', img: '8.jpg', likes: '83' },
+  { url: 'https://www.instagram.com/p/DW2EHhyAa3L/', img: '9.jpg', likes: '76' },
+  { url: 'https://www.instagram.com/p/DW4UdLljcEL/', img: '10.jpg', likes: '69' },
+  { url: 'https://www.instagram.com/p/DW_WD31jTva/', img: '11.jpg', likes: '98' },
+  { url: 'https://www.instagram.com/p/DXulFlVCZyU/', img: '12.jpg', likes: '115' },
+  { url: 'https://www.instagram.com/p/DX4gUiPFcIL/', img: '13.jpg', likes: '87' },
+  { url: 'https://www.instagram.com/p/DYU_OYQDpZr/', img: '14.jpg', likes: '101' },
+  { url: 'https://www.instagram.com/p/DYZ8zbRjUuj/', img: '15.jpg', likes: '93' },
+  { url: 'https://www.instagram.com/p/DYfGXidDYnX/', img: '16.jpg', likes: '120' },
 ];
 const tt=document.getElementById('testiTrack');
 [...posts,...posts].forEach(p=>{
